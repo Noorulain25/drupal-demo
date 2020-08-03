@@ -1,0 +1,14 @@
+uuid: 48d8678a-9d14-48f6-8c74-9282d1d1e276
+name: Training
+mail: noora@cogapp.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

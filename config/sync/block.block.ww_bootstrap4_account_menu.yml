@@ -1,0 +1,27 @@
+uuid: 2d1034e7-a82f-4084-bb26-d8874a0a054d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - ww_bootstrap4
+_core:
+  default_config_hash: bSenKfxHQ1-_DHnPlsMsap_D6fif7bbe3kh9k31LkdU
+id: ww_bootstrap4_account_menu
+theme: ww_bootstrap4
+region: nav_additional
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
