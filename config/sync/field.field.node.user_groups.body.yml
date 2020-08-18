@@ -1,0 +1,23 @@
+uuid: 080b7897-a21d-45b9-b68d-fe43c6be5683
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.user_groups
+  module:
+    - text
+id: node.user_groups.body
+field_name: body
+entity_type: node
+bundle: user_groups
+label: 'User Group Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
